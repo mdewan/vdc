@@ -413,7 +413,7 @@ Function Start-ExponentialBackoff () {
         [Parameter(Mandatory=$false)]
         [Object[]] $Arguments = @(),
         [Parameter(Mandatory=$false)]
-        [int] $MaxRetries = 3
+        [int] $MaxRetries = 5
     )
     $innerException = "";
     While($MaxRetries -gt 0) {

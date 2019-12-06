@@ -489,7 +489,6 @@
                 "WindowsJumpbox", 
                 "LinuxJumpbox", 
                 "InstallActiveDirectory",
-                "InstallActiveDirectoryDomainServices",
                 "ActiveDirectoryDomainServicesKek", 
                 "WindowsJumpboxKek", 
                 "LinuxJumpboxKek", 
@@ -1091,6 +1090,7 @@
             "DependsOn": [
                 "EncryptActiveDirectoryDomainServices"
             ],
+            "Enabled": false,
             "Comments": "Installs Active Directory Domain Services",
             "Deployment": {
                 "OverrideParameters": {
